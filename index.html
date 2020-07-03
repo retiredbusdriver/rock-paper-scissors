@@ -2,9 +2,20 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js" charset="utf-8"></script>
     <title></title>
   </head>
   <body>
+    <div class="buttons">
+      <img src="images/rock.png" alt="rockSelect" id="rockImg" class="playerButtons">
+      <img src="images/paper.png" alt="paperSelect" id="paperImg" class="playerButtons">
+      <img src="images/scissors.png" alt="scissorsSelect" id="scissorsImg" class="playerButtons">
+    </div>
+    <div class="counters">
+      <p id='selectedChoices'></p>
+      <p id='playerScore'>Player score: </p>
+      <p id='computerScore'>Computer score: </p>
+    </div>
   </body>
 </html>
